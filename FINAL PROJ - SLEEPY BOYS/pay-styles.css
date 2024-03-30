@@ -1,0 +1,97 @@
+/* Styles for the floating payment tab */
+#floating-payment-tab {
+    position: fixed;
+    bottom: 400px;
+    right: 100px;
+    z-index: 9999;
+    display: flex;
+    width: 300px;
+}
+
+.tm-daily-menu-img {
+    align-items: center;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+#cardNumber {
+    border-radius: 50px;
+    width: 350px;
+}
+
+#expiry {
+    border-radius: 50px;
+}
+
+#cvv {
+    border-radius: 50px;
+}
+
+h2 {
+    align-items: center;
+}
+
+.content {
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 75px;
+}
+
+
+
+#floating-payment-tab button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 18px;
+    cursor: pointer;
+    font-size: 12px;
+}
+#floating-payment-tab button:hover {
+    background-color: #0056b3;
+}
+#payment-content {
+    display: none;
+    position: absolute;
+    right: 100%;
+    width: 400px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#payment-content h3 {
+    margin-top: 0;
+}
+#payment-content form {
+    margin: 10px 0;
+}
+#payment-content label {
+    display: block;
+    margin-bottom: 5px;
+}
+#payment-content input[type="text"],
+#payment-content input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#payment-content button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#payment-content button:hover {
+    background-color: #0056b3;
+}
+
+

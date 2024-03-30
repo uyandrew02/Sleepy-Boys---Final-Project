@@ -1,0 +1,425 @@
+.pokemonbackgroundmanypokemons-icon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frame-child {
+  width: 1050px;
+  height: 893px;
+  position: relative;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-gray);
+  display: none;
+  max-width: 100%;
+}
+.pokemongologo-2-icon {
+  align-self: stretch;
+  height: 213px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 2;
+}
+.sign-in,
+.sign-up {
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 3;
+}
+.sign-in {
+  text-decoration: underline;
+  min-width: 92px;
+}
+.sign-up {
+  min-width: 97px;
+  cursor: pointer;
+  left: 60px;
+}
+.sign-in-parent,
+.sign-in-sign-up {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sign-in-parent {
+  gap: var(--gap-4xl);
+}
+.sign-in-sign-up {
+  padding: 0 var(--padding-37xl) 0 var(--padding-36xl);
+}
+.pokemon-logo,
+.pokemon-logo-wrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.pokemon-logo {
+  align-self: stretch;
+  width: 323px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.pokemon-logo-wrapper {
+  width: 524px;
+  height: 242px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 0 0 1px;
+  box-sizing: border-box;
+}
+.wrapper-frame-17-child {
+  outline: 0;
+  padding: var(--padding-sm) var(--padding-21xl) var(--padding-3xl);
+  font-family: var(--font-inter);
+  font-weight: 800;
+  font-size: var(--font-size-5xl);
+  color: var(--color-silver);
+  border: 0;
+  width: 100%;
+  height: 100%;
+  background: 0 0;
+  position: absolute;
+  z-index: 7;
+  padding: 0, 15px;
+}
+.username-input-child {
+  width: 524px;
+  position: relative;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-whitesmoke);
+  height: 57px;
+  display: none;
+}
+.username {
+  height: 29px;
+  width: 122px;
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+  z-index: 3;
+}
+.username-input,
+.wrapper-frame-17 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.username-input {
+  height: 60px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-whitesmoke);
+  padding: var(--padding-sm) var(--padding-21xl);
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+}
+.wrapper-frame-17 {
+  position: relative;
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 65px;
+  min-width: 250px;
+}
+.wrapper-frame-15-child {
+  outline: 0;
+  padding: var(--padding-sm) var(--padding-23xl) var(--padding-3xl);
+  font-family: var(--font-inter);
+  font-weight: 800;
+  font-size: var(--font-size-5xl);
+  color: var(--color-silver);
+  border: 0;
+  width: 100%;
+  height: 100%;
+  background: 0 0;
+  position: relative;
+  z-index: 3;
+}
+.forgot-password-link-child {
+  width: 524px;
+  position: relative;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-whitesmoke);
+  height: 57px;
+  display: none;
+}
+.password {
+  height: 29px;
+  width: 117px;
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+  z-index: 3;
+}
+.forgot-password-link,
+.wrapper-frame-15 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.forgot-password-link {
+  height: 57px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-whitesmoke);
+  padding: var(--padding-sm) var(--padding-23xl);
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+}
+.wrapper-frame-15 {
+  position: relative;
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 65px;
+  min-width: 250px;
+}
+.or-sign-in {
+  position: relative;
+  font-weight: 800;
+  z-index: 2;
+}
+.or-sign-in-with-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 26px 0 var(--padding-mid);
+}
+.apple-logo-icon,
+.applelogo-1-icon,
+.googlelogo-1-icon {
+  height: 50px;
+  width: 54px;
+  position: relative;
+  object-fit: cover;
+  min-height: 50px;
+  z-index: 2;
+}
+.apple-logo-icon,
+.applelogo-1-icon {
+  width: 53px;
+}
+.applelogo-1-icon {
+  height: 51px;
+  width: 63px;
+  min-height: 51px;
+}
+.google-logo {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+}
+.log-in-area,
+.log-in-area-wrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.log-in-area {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 13px;
+}
+.log-in-area-wrapper {
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 30px;
+  color: var(--color-white);
+}
+.forgot-password {
+  position: relative;
+  font-weight: 800;
+  z-index: 2;
+}
+.forgot-password-label,
+.password-input {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.forgot-password-label {
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.password-input {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 14px;
+}
+.frame-item {
+  height: 62px;
+  width: 256px;
+  position: relative;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-peru);
+  display: none;
+}
+.log-in {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 800;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 72px;
+  z-index: 3;
+}
+.frame-wrapper,
+.rectangle-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.rectangle-group {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mid) var(--padding-xl) var(--padding-base);
+  background-color: var(--color-peru);
+  width: 256px;
+  border-radius: var(--br-31xl);
+  box-sizing: border-box;
+  white-space: nowrap;
+  z-index: 2;
+}
+.rectangle-group:hover {
+  background-color: var(--color-chocolate);
+}
+.frame-wrapper {
+  align-self: stretch;
+  padding: 0 var(--padding-xl);
+}
+.wrapper-frame-17-parent {
+  width: 524px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 34px;
+  max-width: 100%;
+  color: var(--color-silver);
+}
+.rectangle-parent,
+.sign-in-page {
+  display: flex;
+  box-sizing: border-box;
+}
+.rectangle-parent {
+  height: 893px;
+  width: 1050px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-gray);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 185px;
+  gap: 56px;
+  max-width: 100%;
+  z-index: 1;
+}
+.sign-in-page {
+  width: 100%;
+  height: 1080px;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-75xl) var(--padding-xl) var(--padding-74xl);
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 900px) {
+  .rectangle-parent {
+    padding-bottom: 120px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 700px) {
+  .wrapper-frame-17-parent {
+    gap: 17px 34px;
+  }
+  .rectangle-parent {
+    gap: 28px 56px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sign-in-sign-up {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .forgot-password,
+  .or-sign-in,
+  .password,
+  .username {
+    font-size: var(--font-size-lgi);
+  }
+  .rectangle-parent {
+    padding-bottom: 78px;
+    box-sizing: border-box;
+  }
+}
+.text-box {
+  display: block;
+  width: 100%; /* Adjust width as needed */
+  padding: 10px;
+  margin-bottom: 10px; /* Space between fields */
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
+
+.submit-btn {
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  padding: 15px 20px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}
+
+/* Additional styles for your form container or other elements as needed */

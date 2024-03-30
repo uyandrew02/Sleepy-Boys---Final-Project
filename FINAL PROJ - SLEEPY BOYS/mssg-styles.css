@@ -1,0 +1,14 @@
+/* Styles for the message container */
+#message-container {
+    display: none;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Styles for showing message when button is pressed */
+#show-message-btn:active + #message-container {
+    display: block;
+}
